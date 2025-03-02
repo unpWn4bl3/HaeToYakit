@@ -23,6 +23,20 @@ options:
 
 该脚本带有一个gui界面,如果使用脚本时不添加任何参数时,那么将会自动开启gui模式
 
+node.js实现
+
+```
+usage: node HaeToYakit.js [-h] -f FILE [-o OUTPUT]
+
+将hae规则转换为yakit规则配置
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  指定hae的配置文件
+  -o OUTPUT, --output OUTPUT
+                        保存指定目录
+```
+
 ## 教程
 
 1. 开启脚本
